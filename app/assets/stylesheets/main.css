@@ -10,6 +10,17 @@ h1 {
  font-family: 'Roboto', sans-serif;
 }
  
+h2 {
+  text-align: center !important;
+  font-weight: bold !important;
+}
+
+table {
+  text-align: center !important;
+  font-weight: bold !important;
+  display: flex;
+  justify-content: center;
+}
  /* Keyframes */
 
 @-webkit-keyframes color_change {
