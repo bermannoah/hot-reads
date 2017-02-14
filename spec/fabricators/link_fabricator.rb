@@ -1,4 +1,4 @@
 Fabricator(:link) do
   url           "#{Faker::Internet.unique.url}"
-  title "#{Faker::Hacker.say_something_smart}"
+  read_count "#{Faker::Number.unique.between(1, 100)}"
 end
