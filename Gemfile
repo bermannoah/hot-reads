@@ -18,6 +18,8 @@ gem 'figaro'
 gem 'faraday'
 gem 'sprockets', '>= 3.0.0'
 gem 'sprockets-es6'
+gem 'validate_url'
+
 
 group :development, :test do
   gem 'byebug', platform: :mri
