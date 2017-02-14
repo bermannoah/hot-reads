@@ -40,6 +40,7 @@ group :test do
   gem 'database_cleaner'
   gem 'fabrication'
   gem 'simplecov', require: false
+  gem 'faker'
 end
 
 group :production do
