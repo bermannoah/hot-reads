@@ -18,6 +18,8 @@ gem 'figaro'
 gem 'faraday'
 gem 'sprockets', '>= 3.0.0'
 gem 'sprockets-es6'
+gem 'validate_url'
+
 
 group :development, :test do
   gem 'byebug', platform: :mri
@@ -38,6 +40,7 @@ group :test do
   gem 'database_cleaner'
   gem 'fabrication'
   gem 'simplecov', require: false
+  gem 'faker'
 end
 
 group :production do
